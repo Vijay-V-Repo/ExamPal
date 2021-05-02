@@ -1,0 +1,23 @@
+{
+"read question": "readQuestion",
+"skip": "nextQuestion",
+"next question": "nextQuestion",
+"next": "nextQuestion",
+"previous": "previousQuestion",
+"previous question": "previousQuestion",
+"read bookmarks": "readBookmarks",
+"bookmarks": "readBookmarks",
+"remove bookmark": "removeBookmarkQuestion",
+"bookmark": "bookmarkQuestion",
+"mark option ": "markOption",
+"goto question ": "gotoQuestion",
+"goto ": "gotoQuestion",
+"question ": "gotoQuestion",
+"question": "readQuestion",
+"mark ": "markOption",
+"option ": "markOption",
+"options": "readOptions",
+"start": "startExam",
+"end": "endExam",
+"submit": "endExam"
+}

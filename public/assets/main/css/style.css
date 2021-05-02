@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900');
+
+@charset "utf-8";
+
+/* -----------------------------------
+    General CSS
+-------------------------------------*/
+
+html,
+body {
+  font-size: 15px;
+  color: #505050;
+  font-family: 'Rubik', sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin: 0 0 26px;
+  line-height: 1.8;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito', sans-serif;
+  color: #111111;
+  margin: 0 0 26px;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+a {
+  color: #21a7d0;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0 none;
+  color: #21a7d0;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+/****  Header CSS  ****/
+.menu {
+  height: auto !important;
+}
+
+.middle {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.full-width-header .header .logo {
+  position: relative;
+  z-index: 9;
+}
+.full-width-header .header .logo img {
+  max-height: 40px;
+}
+
+.full-width-header .header .menu-area .menu-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.full-width-header .header .menu-area .main-menu .menu ul.nav-menu li {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 0;
+}
+.full-width-header .header .menu-area .main-menu .menu ul.nav-menu li a {
+  transition: all 0.3s ease;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 120px;
+  line-height: 120px;
+  padding-right: 12px;
+  margin-right: -12px;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+.full-width-header.header-style .header .menu-area .menu-area .main-menu .menu ul.nav-menu li {
+  margin-right: 35px;
+}
+.full-width-header.header-style .header .menu-area .menu-area .main-menu .menu ul.nav-menu li a {
+  color: #333333;
+  font-weight: 500;
+}
+
+.full-width-header.header-style .header .menu-area .menu-area .main-menu .menu ul.nav-menu li a:hover,
+.full-width-header.header-style .header .menu-area .menu-area .main-menu .menu ul.nav-menu li.current-menu-item > a {
+  color: #0c8b51 !important;
+}
+
+
+
+/*****  Login/Register  CSS  *****/
+.login {
+  background: #f9f8f8;
+  max-width: 800px;
+  padding: 70px;
+  margin: 0 auto;
+}
+.login .main-part {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+.login .main-part .method-account .login {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #111111;
+}
+.login .main-part .method-account label {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #505050;
+}
+
+/* Table Area */
+
+table, td, th {
+  border: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.card1 {
+  padding: 50px;
+  margin: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 5px 8px 3px rgba(27, 27, 27, 0.2);
+  color: rgb(48, 48, 48);
+  text-align: center;
+  background-color: rgb(184, 250, 211);
+}
+
+.card2 {
+  padding: 50px;
+  margin: auto;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 3px 5px 8px 3px rgba(27, 27, 27, 0.2);
+  color: rgb(54, 54, 54);
+  background-color: rgb(231, 231, 231);
+}
+
+.card3 {
+  padding: 38px;
+  margin: auto;
+  width: 95%;
+  height: 570px;
+  border-radius: 5px;
+  box-shadow: 3px 8px 8px 3px rgba(201, 201, 201, 0.678);
+  background-color: rgb(245, 245, 245);
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-70px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-70px); }
+}
