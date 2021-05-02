@@ -13,7 +13,7 @@ This project is submitted to [RuHacks 2021](https://ruhacks.com/) held on May 01
 
 
 ## Inspiration
-During June of Last year, we came across a new article that explained how visually impaired students are struggling to find scribes during the Covid 19 pandemic. We were completely heart broken on knowing their struggle. So, we all decided on the same day to build something that enables visually impaired students to write exams on their own.<br>
+During June of Last year, we came across a news article that explained how visually impaired students are struggling to find scribes during the Covid 19 pandemic. We were completely heart broken on knowing their struggle. So, we all decided on the same day to build something that enables visually impaired students to write exams on their own.<br>
 **[Link to the Video Article ](https://youtu.be/bX6da6sWnIU)**
 <br>
 
@@ -23,14 +23,14 @@ During June of Last year, we came across a new article that explained how visual
 
 - **A teacher can create exams with questions and assign a particular start date and time, due date and time, the exam duration, guidelines and assign it to a particular student/students.**
 
-- **The student can then login and take assigned exams**
+- **The student can then login and take the assigned exams**
 
 - **Here comes the MVP of our project, we have implemented Speech Synthesis for Audio Response and Speech Recognition for giving inputs**
 
 - **When have selected  ```Push to Talk``` find in many modern applications, to start and stop voice recognition.  We chose ```ESC``` Key as it is the top left key on the keyboard and is mostly separated from the rest of the keys in most of the keyboards, students can easily find the ```ESC``` Key without any hassle.** 
 - **The complete examination can be taken via simple Voice Commands, can receive responses as audio, making it possible for Visually Impaired students to take exams without difficulties.**
 
-- **Once the examination's duration is over or manually submitted by the student, his/her marks is spoken out using Speech Synthesis, so they can know their performance in real time.**
+- **Once the examination's duration is over or manually submitted by the student, his/her marks is read out using Speech Synthesis, so they can know their performance in real time.**
 <br>
 
 
