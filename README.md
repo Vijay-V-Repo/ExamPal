@@ -85,3 +85,15 @@ During June of Last year, we came across a new article that explained how visual
 - **At last we are going to maintain ExamPal as an Open Source project, so everyone can contribute and use it without any extra cost.**
 
 - **Our dream of deploying ExamPal in a production environment will become true soon xD.**
+<br>
+
+
+## Our Team
+- **Abdul Basith**
+
+- **Bhuvanesh T G**
+
+- **Dhivakaran**
+
+- **Vijayvenkatajalapathi G**
+
