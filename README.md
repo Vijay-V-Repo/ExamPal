@@ -1,62 +1,87 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# ExamPal
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Introduction
+A web app to help the students, especially for the visually challenged students who can't use the online exam portals without any assistance.
+<br>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## About this project
+This project is submitted to [RuHacks 2021](https://ruhacks.com/) held on May 01-02-2021.
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Inspiration
+During June of Last year, we came across a new article that explained how visually impaired students are struggling to find scribes during the Covid 19 pandemic. We were completely heart broken on knowing their struggle. So, we all decided on the same day to build something that enables visually impaired students to write exams on their own.<br>
+**[Link to the Video Article ](https://youtu.be/bX6da6sWnIU)**
+<br>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## What it does
+- **First, a user is asked to signup as a teacher or as a student**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- **A teacher can create exams with questions and assign a particular start date and time, due date and time, the exam duration, guidelines and assign it to a particular student/students.**
 
-### Premium Partners
+- **The student can then login and take assigned exams**
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+- **Here comes the MVP of our project, we have implemented Speech Synthesis for Audio Response and Speech Recognition for giving inputs**
 
-## Contributing
+- **When have selected  ```Push to Talk``` find in many modern applications, to start and stop voice recognition.  We chose ```ESC``` Key as it is the top left key on the keyboard and is mostly separated from the rest of the keys in most of the keyboards, students can easily find the ```ESC``` Key without any hassle.** 
+- **The complete examination can be taken via simple Voice Commands, can receive responses as audio, making it possible for Visually Impaired students to take exams without difficulties.**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Once the examination's duration is over or manually submitted by the student, his/her marks is spoken out using Speech Synthesis, so they can know their performance in real time.**
+<br>
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Tech Stack used
+- **Frontend was built using HTML, CSS, JS, Jquery.**
 
-## Security Vulnerabilities
+- **Backend was built with [Laravel (PHP)](https://laravel.com) and MYSQL.**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Speech Recognition and Speech Synthesis were done using Web Speech API.**
+<br>
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Problems We Faced
+- **Implementing Web Speech API was a bit difficult.**
+
+- **The voice controlled examination system took a lot time to make it work properly.**
+
+- **Maintaining sync between HTML transition and Voice Synthesis in Exam page was hard.**
+
+- **This is our first hackathon, so we faced a lot of hurdles while making the presentation video.**
+<br>
+
+
+## Accomplishments that we're proud of
+- **We are proud of working on stuff that we don't have much of prior experience with.**
+
+- **We also managed to make the website fully functional, in a given short span of time.**
+
+- **We are proud of implementing the Web Speech API, an API that is built in on modern day browsers, but not used much and doesn't have good resources or docs.**
+<br>
+
+
+## What we learnt
+**```   The journey of a thousand miles begins with one step   ```**
+- **This is our first ever Hackathon, so we had the opportunity of learning a lot of new tips, tricks, tools and stuff.**
+
+- **We learned to work as  a team and collaborate, assigning tasks and dead lines to each other.**
+
+- **We learned to work on new technologies and APIs like Web Speech API.**
+
+- **We also learnt on how to integrate and stich up each one's individual work and make it as a whole functional thing.**
+<br>
+
+
+## What's next for ExamPal
+- **Our first goal is to add a more variety of questions that teachers can use while creating exams.**
+
+- **We are planning to implement Face Recognition for authorization.**
+
+- **Combined with Face Recognition, we are also going to make the site fully navigatable through voice so any user can use the site without assistance.**
+
+- **At last we are going to maintain ExamPal as an Open Source project, so everyone can contribute and use it without any extra cost.**
+
+- **Our dream of deploying ExamPal in a production environment will become true soon xD.**
