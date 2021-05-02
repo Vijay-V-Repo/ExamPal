@@ -89,11 +89,11 @@ During June of Last year, we came across a new article that explained how visual
 
 
 ## Our Team
-- **Abdul Basith**
+- **Abdul Basith M**
 
 - **Bhuvanesh T G**
 
-- **Dhivakaran**
+- **Dhivakaran V R**
 
 - **Vijayvenkatajalapathi G**
 
